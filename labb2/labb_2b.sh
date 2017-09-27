@@ -18,6 +18,7 @@ cat -ni certs.txt
 openssl pkcs12 -keypbe PBE-SHA1-3DES -certpbe PBE-SHA1-3DES -export -in server.crt -inkey server.key -out pkcs12.pfx -name "PKCS12"
 
 
+
 # dela upp PKCS#12
 openssl pkcs12 -in pkcs12.pfx -out export.key -nocerts
 openssl pkcs12 -in pkcs12.pfx -out export.crt -nokeys

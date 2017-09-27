@@ -2,4 +2,5 @@
 *.pfx
 *.pk8
 *.p7b
-
+*.swp
+/.project
