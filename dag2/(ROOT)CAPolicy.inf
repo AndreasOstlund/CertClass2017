@@ -1,0 +1,26 @@
+[Version]
+Signature="$Windows NT$"
+
+[PolicyStatementExtension]
+Policies=AllIssuancePolicy
+Critical=False
+
+[AllIssuancePolicy]
+OID=2.5.29.32.0
+
+[Certsrv_Server]
+RenewalKeyLength=4096
+RenewalValidityPeriod=Years
+RenewalValidityPeriodUnits=20
+CRLPeriod=weeks
+CRLPeriodUnits=26
+CRLDeltaPeriod=Days
+CRLDeltaPeriodUnits=0
+LoadDefaultTemplates=0
+AlternateSignatureAlgorithm=1
+
+[CRLDistributionPoint]
+EMPTY=TRUE
+
+[AuthorityInformationAccess]
+EMPTY=TRUE

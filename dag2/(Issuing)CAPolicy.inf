@@ -1,0 +1,16 @@
+[Version]
+Signature="$Windows NT$"
+
+[PolicyStatementExtension]
+Policies=CertificatePracticeStatementLABB
+
+[CertificatePracticeStatementLABB]
+OID=1.2.752.153.999.2.1
+URL=http://www.pki.labb/cps/cps.txt
+
+[Certsrv_Server]
+RenewalKeyLength=2048
+RenewalValidityPeriod=Years
+RenewalValidityPeriodUnits=10
+LoadDefaultTemplates=0
+AlternateSignatureAlgorithm=1
